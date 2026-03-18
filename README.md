@@ -1,80 +1,62 @@
-Automation Test Store - Selenium Project
-📌 Overview
+# 🧪 Automation Test Store - Selenium Project
 
-This project contains automated test scenarios for the website:
-🔗 https://automationteststore.com/
+## 📌 Overview
 
-The automation is built using Selenium WebDriver with Java and TestNG, simulating real user actions such as registration, login, adding items to cart, and completing checkout.
+This project contains automated test scenarios for the website:  
+https://automationteststore.com/
 
-🛠️ Tools & Technologies
+It is built using Selenium WebDriver with Java and TestNG to simulate real user actions such as registration, login, adding products to the cart, and completing the checkout process.
 
-Java
+---
 
-Selenium WebDriver
+## 🛠️ Tech Stack
 
-TestNG
+- Java  
+- Selenium WebDriver  
+- TestNG  
+- Edge WebDriver  
+- Maven (optional)  
 
-Edge WebDriver
+---
 
-Maven (optional)
+## 🚀 Test Scenarios
 
-🚀 Test Scenarios
-1. 📝 Signup
+### 1. User Signup
+- Navigate to the registration page  
+- Fill in user details using random data  
+- Submit the form  
+- Verify successful account creation  
 
-Navigate to registration page
+### 2. Signup with Dynamic Data
+- Perform signup using generated/random data  
+- Ensure unique data for each test run  
 
-Fill user details with random data
+### 3. Logout
+- Log out from the account  
+- Verify logout success message  
 
-Submit the form
+### 4. Login
+- Log in using the created credentials  
+- Validate successful login using assertions  
 
-Validate successful account creation
+### 5. Add Random Product to Cart
+- Navigate to homepage  
+- Select a random product  
+- Handle special product cases if needed  
+- Add product to cart  
 
-2. 🗄️ Signup (Data-Driven Simulation)
+### 6. Checkout Process
+- Proceed to checkout  
+- Confirm the order  
+- Verify order success message  
 
-Same signup process using dynamic/generated data
+---
 
-Ensures reusability and randomness
+## ✨ Features
 
-3. 🔓 Logout
-
-Logout from the account
-
-Verify logout success message
-
-4. 🔐 Login
-
-Login using created credentials
-
-Validate successful login using assertions
-
-5. 🛒 Add Random Item to Cart
-
-Open homepage
-
-Select a random product
-
-Handle special product cases (if needed)
-
-Add item to cart
-
-6. 💳 Checkout Process
-
-Proceed to checkout
-
-Confirm the order
-
-Validate order success message
-
-✨ Features Implemented
-
-✅ Random test data generation
-
-✅ Handling dynamic elements
-
-✅ Form automation (signup/login)
-
-✅ Assertions for validation
-
-✅ End-to-end test scenario (E2E)
-
-✅ Reusable test data class
+- Random test data generation  
+- Handling dynamic elements  
+- Form automation (signup & login)  
+- Assertions using TestNG  
+- End-to-end testing scenario (E2E)  
+- Reusable test data class  
